@@ -20,12 +20,12 @@ To use the program, follow the step-by-step guide given below:
       - tet_to_eng.py
       - tel_translit.py
       static
-        -css.css
-        images
-          -by.jpg
-          -hdr.jpg
+         - css.css
+         - images
+            - by.jpg
+            - hdr.jpg
       templates
-        -index.html
+         - index.html
        
 In the folder ‘Transliteration’, main.py is the program executing file. Run the file within the folder (Do not misplace/ extract the file alone) to use the program.
 
