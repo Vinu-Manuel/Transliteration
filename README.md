@@ -19,12 +19,12 @@ To use the program, follow the step-by-step guide given below:
       - mal_translit.py
       - tet_to_eng.py
       - tel_translit.py
-      - static
+      static
         -css.css
-        -images
+        images
           -by.jpg
           -hdr.jpg
-      - templates
+      templates
         -index.html
        
 In the folder ‘Transliteration’, main.py is the program executing file. Run the file within the folder (Do not misplace/ extract the file alone) to use the program.
