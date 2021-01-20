@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html>
+<!--Head section-->
+<head>
+<!--defining title-->
+	<title>Transliteration</title>
+<!--Linking CSS file-->
+	<link rel="stylesheet" href="{{ url_for('static', filename='css.css') }}">
+<!--Embedded CSS-->
+	<style type="text/css">	
+	body{
+		background: url('static/images/by.jpg');
+	}
+	
+	.hd {
+		background-size: 100%;
+		overflow-x: hidden;
+	}
+	
+	footer {
+		width:100%;
+		margin: 10px 0px 10px 0px;
+	}
+
+	.H{
+		text-align-last: center;
+		width: 100%;
+		background-repeat:no-repeat;
+		overflow-x:hidden;	
+	}
+	
+	.header{
+		width:40%;
+		color:black;
+		text-align: left;
+		border: 1px solid #228B22;
+		border-botom:none;
+		border-radius: 10px 10px 10px 10px;
+		padding: 20px;
+	}
+	
+	.content{
+		text-align-last: center;
+		width:-webkit-fill-available;
+		margin: 10px 10px 10px 10px;
+		padding:10px 10px 10px 10px;
+		border: 5px solid #228B22;
+		background: #edfbea;
+		border-radius:10px 10px 10px 10px;
+	}
+	
+	.input-group{
+		margin: 10px 0px 10px 0px; 
+	}
+	
+	.input-group label{
+		display:block;
+		text-align: left;
+		margin: 3px;
+	}
+	#ilan{
+		height:150px;
+		width:-webkit-fill-available;
+		padding: 5px 10px;
+		font-size: 14px;
+		border: 1px solid gray;
+	}
+	
+	.btn{
+		padding:10px;
+		font-size:15px;
+		color:white;
+		background: #228B22;
+		border: none;
+		border-radius: 5px;
+	}
+	
+	.fft{
+		padding: 10px 0px 10px 0px;
+	}
+	
+	</style>
+<!--Closing head section-->
+</head>
+<!--Opening body section-->
+<body>
+<!--Header-->
+<div id = "myH" class="H">
+
+<header class= "hd" id ="hdr">
+<h1 id = "hding">Transliteration<h1>
+</header>
+</div>
+<!--Content-->
+<div class="content">
+
+<div class= "frm">
+<!--Form-->
+<form name="form1" action="#" method="post" onsubmit="return(ilan); return(language)">
+
+<div class ="input-group">
+
+<select name="language" class="btn">
+
+<option value="dlan">Detect Language</option>
+<option value="hin">Hindi</option>
+<option value="mal">Malayalam</option>
+<option value="tel">Telugu</option>
+</select>
+</div>
+
+<div class = "input-group">
+<textarea name="ilan" id="ilan"></textarea>
+</div>
+
+<div class ="input-group">
+<button type="submit" class="btn" name="tnslt">TRANSLITERATE</button>
+</div>
+
+</form>
+<div class="input-group">{{o}}{{itext}}</div>
+<div class="input-group">{{t}}{{m}}</div>
+</div>
+</div>
+<!--Footer-->
+<div class="forft">
+<footer class="hd" id= "ft">
+<div class="fft" align= "center">
+<b>This project is created by:</b><br>
+<b>VINU MANUEL</b><br>
+<b>Computational Linguist</b>
+</footer>
+</div>
+
+
+</div>
+</body>
+<!--Closing body section-->
+</html>
