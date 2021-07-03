@@ -1,6 +1,6 @@
 # Transliteration
 
-The Transliteration program takes the input from the users, determine whether the input is in Hindi, Malayalam or Telugu and transliterates the input to its respective Roman characters
+The Transliteration program takes the input from the users, determine whether the input is in Hindi, Malayalam or Telugu and transliterates the input to its respective Roman characters.
 
 To use the program, follow the step-by-step guide given below:
 
